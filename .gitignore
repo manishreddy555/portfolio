@@ -7,10 +7,22 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependency directories
 node_modules
+.pnp
+.pnp.js
+
+# Build artifacts
 dist
 dist-ssr
-*.local
+build/
+public/
+coverage/
+
+# Environment files
+.env
+.env.local
+.env.*.local
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +34,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# OS-specific files
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# Framework-specific directories
+.next/
+.nuxt/
+.svelte-kit/
+.cache/
+
+# Other
+*.local
