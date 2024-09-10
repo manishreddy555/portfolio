@@ -14,7 +14,6 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 ## Features
 
 - **Responsive Design**: The site is designed to work well on both desktop and mobile devices.
-- **Dark/Light Mode Toggle**: Easily switch between dark and light themes.
 - **Interactive Animations**: Smooth animations powered by Framer Motion.
 - **Project Showcases**: Detailed sections highlighting various projects and skills.
 - **Contact Form**: A contact section to reach out directly.
