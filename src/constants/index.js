@@ -9,25 +9,32 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full-stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2021 - 2022",
+    year: "August 2024 - Present",
+    role: "Full Stack Developer",
+    company: "BNY Mellon",
+    description: `Developed and optimized RESTful APIs, GraphQL endpoints, and microservices using Spring Boot, PostgreSQL, and AWS, enhancing system scalability and reducing infrastructure overhead. Implemented real-time monitoring, CI/CD pipelines, and authentication mechanisms while improving UI with React for seamless user experience.`,
+    technologies: ["Java", "Spring Boot", "AWS", "Postgres", "Microservices", "Docker", "React"],
+  },
+  {
+    year: "August 2021 - December 2022",
     role: "Software Engineer",
     company: "WM Morrisons Supermarkets",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Java", "Spring Boot", "AWS", "Postgres", "Microservices"],
+    description: `Designed and deployed scalable microservices for retail operations, integrating Datadog monitoring, caching with Redis, and event-driven architecture with Apache Kafka. Improved store-level pricing efficiency, automated deployments with Kubernetes, and optimized performance using AWS services`,
+    technologies: ["Java", "Spring Boot", "AWS", "Postgres", "Microservices", "Kafka", "Jira"],
   },
   {
-    year: "2020 - 2021",
+    year: "April 2020 - July 2021",
     role: "Junior Software Engineer",
-    company: "WM Morrisons Supermarkets",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["Java", "Spring Boot", "JavaScript", "React", "Datadog"],
+    company: "Cognizant Technology Solutions",
+    description: `Developed RESTful APIs, built dynamic front-end applications with Angular, and optimized backend workflows using Node.js and RabbitMQ. Automated logging, monitoring, and deployment processes using AWS CloudWatch, ECS, and Loggly, enhancing system reliability.`,
+    technologies: ["Java", "Spring Boot", "JavaScript", "Angular", "Datadog","Rabbit MQ", "Node.js"],
   },
   {
-    year: "2019 - 2019",
+    year: "June 2019 - December 2019",
     role: "Software Intern",
     company: "Qrius Research Labs",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Node.js", "Express", "Chatbots", "MongoDB"],
+    technologies: ["Node.js", "Express", "Chatbots", "MongoDB", "Javascript"],
   },
 
 ];
@@ -51,6 +58,7 @@ export const EDUCATION = [
 
 
 export const PROJECTS = [
+
   {
       title: "Web-Based Inventory Management System",
       image: project1,
@@ -63,7 +71,7 @@ export const PROJECTS = [
     title: "Employee Attendance Tracking System",
     image: project2,
     description:
-    "CCreated an attendance management system featuring role-based access control, user authentication, and automated email notifications with a responsive UI.",
+    "Created an attendance management system featuring role-based access control, user authentication, and automated email notifications with a responsive UI.",
     technologies: ["Java", "Spring Boot", "MySQL", "Hibernate", "JUnit", "Spring Security", "Thymeleaf", "Maven"],
   },
   
