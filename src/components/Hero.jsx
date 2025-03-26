@@ -44,7 +44,7 @@ const Hero = () => {
             variants={container(1.25)} 
             initial="hidden"
             animate="visible"
-            href="https://drive.google.com/file/d/1ekI3mX78fiBag_OMsQSj9-7ltaOfBNCO/view?usp=drive_link"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-white bg-blue-500 px-4 py-2 rounded-md hover:bg-blue-600 transition mb-4 lg:mb-0"
