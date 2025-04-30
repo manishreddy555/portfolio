@@ -23,7 +23,7 @@ export const EXPERIENCES = [
     technologies: ["Java", "Spring Boot", "AWS", "Postgres", "Microservices", "Kafka", "Jira"],
   },
   {
-    year: "April 2020 - July 2021",
+    year: "January 2020 - July 2021",
     role: "Junior Software Engineer",
     company: "Cognizant Technology Solutions",
     description: `Developed RESTful APIs, built dynamic front-end applications with Angular, and optimized backend workflows using Node.js and RabbitMQ. Automated logging, monitoring, and deployment processes using AWS CloudWatch, ECS, and Loggly, enhancing system reliability.`,
