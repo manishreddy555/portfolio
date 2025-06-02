@@ -9,7 +9,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full-stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "August 2024 - Present",
+    year: "February 2024 - Present",
     role: "Full Stack Developer",
     company: "BNY Mellon",
     description: `Developed and optimized RESTful APIs, GraphQL endpoints, and microservices using Spring Boot, PostgreSQL, and AWS, enhancing system scalability and reducing infrastructure overhead. Implemented real-time monitoring, CI/CD pipelines, and authentication mechanisms while improving UI with React for seamless user experience.`,
